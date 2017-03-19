@@ -1,0 +1,24 @@
+@import 'reset';
+@import 'colors';
+
+@import url('https://fonts.googleapis.com/css?family=Fira+Mono:400,500,700');
+
+body {
+    background: $background;
+    color: white;
+    font-family: Fira Mono;
+    padding: 2em;
+    text-align: center;
+}
+
+.brand {
+    h1 {
+        font-size: 5em;
+        margin-bottom: .25em;
+    }
+
+    h4 {
+        font-size: 1.25em;
+        margin-bottom: 1em;
+    }
+}
